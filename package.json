@@ -10,12 +10,9 @@
     "url": "https://github.com/underdarkskies/ravencore-node/issues"
   },
   "bin": {
-    "ravencore-node": "./bin/ravencore-node",
-    "ravend": "./bin/ravend"
+    "ravencore-node": "./bin/ravencore-node"
   },
   "scripts": {
-    "preinstall": "./scripts/download",
-    "verify": "./scripts/download --skip-ravencoin-download --verify-ravencoin-download",
     "test": "mocha -R spec --recursive",
     "regtest": "./scripts/regtest",
     "jshint": "jshint --reporter=node_modules/jshint-stylish ./lib",
